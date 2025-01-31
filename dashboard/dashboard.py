@@ -67,7 +67,7 @@ max_date_hour = hours_df["dteday"].max()
 # Input tanggal dari Streamlit sidebar
 with st.sidebar:
     # Menampilkan logo perusahaan
-    st.image("logo.png")
+    st.image("dashboard/logo.png")
     
     # Mengambil input rentang tanggal dari pengguna
     start_date, end_date = st.date_input(
